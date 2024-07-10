@@ -24,7 +24,7 @@ html {
   height: 100%;
   margin: 0;
   color: navy;
-  background-image: url("/cuntdoun1/sean-oulashin-KMn4VEeEPR8-unsplash.jpg"); /* Replace with the path to your image */
+  background-image: url("./sean-oulashin-KMn4VEeEPR8-unsplash.jpg"); /* Replace with the path to your image */
   background-size: cover; /* Makes sure the background covers the whole area */
 }
 .background {
