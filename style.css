@@ -220,13 +220,14 @@ ul {
   margin: 20px auto;
   gap: 10px;
   justify-content: center;
+  width: 351px;
 }
 
 .events .info .time .unit {
   border: 1px solid #d4d4d4;
   border-radius: 6px;
   text-align: center;
-  width: 90px;
+  width: 75px;
   transition: var(--main-transition);
 }
 
