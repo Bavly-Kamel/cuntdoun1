@@ -220,14 +220,14 @@ ul {
   margin: 20px auto;
   gap: 10px;
   justify-content: center;
-  width: 351px;
+  width: 324px;
 }
 
 .events .info .time .unit {
   border: 1px solid #d4d4d4;
   border-radius: 6px;
   text-align: center;
-  width: 75px;
+  width: 71px;
   transition: var(--main-transition);
 }
 
@@ -251,6 +251,9 @@ ul {
   padding: 8px 10px;
   font-size: 13px;
   border-top: 1px solid #d4d4d4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .events .info .time .unit:hover,
