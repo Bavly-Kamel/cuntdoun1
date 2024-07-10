@@ -3,20 +3,13 @@
  ** Video URL: https://www.youtube.com/watch?v=eFsiOTJrrE8
  */
 
-// The End Of The Year Date
-// 1000 milliseconds = 1 Second
-
-let countDownDate = new Date("July 11, 2024 18:00:00").getTime();
-// console.log(countDownDate);
+let countDownDate = new Date("July 12, 2024 00:00:00").getTime();
 
 let counter = setInterval(() => {
-  // Get Date Now
   let dateNow = new Date().getTime();
 
-  // Find The Date Difference Between Now And Countdown Date
   let dateDiff = countDownDate - dateNow;
 
-  // Get Time Units
   // let days = Math.floor(dateDiff / 1000 / 60 / 60 / 24);
   let days = Math.floor(dateDiff / (1000 * 60 * 60 * 24));
   let hours = Math.floor((dateDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
