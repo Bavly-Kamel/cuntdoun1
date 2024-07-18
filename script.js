@@ -3,7 +3,7 @@
  ** Video URL: https://www.youtube.com/watch?v=eFsiOTJrrE8
  */
 
-let countDownDate = new Date("July 12, 2024 00:00:00").getTime();
+let countDownDate = new Date("August 1, 2024 00:00:00").getTime();
 
 let counter = setInterval(() => {
   let dateNow = new Date().getTime();
